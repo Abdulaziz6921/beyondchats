@@ -18,6 +18,10 @@ Check out the live version of the project: [Live Website Link](https://beyondcha
 - Tailwind CSS
 - Lucide React (for icons)
 
+## 🔐 Verification Process
+
+For the email verification step in this project, the six-digit code is displayed as an alert instead of being sent via email. This approach is used for demonstration purposes to keep the scope of this test task manageable. In a full-scale project, proper email verification via an authentication service would be implemented.
+
 ## 📦 Installation & Setup
 
 1. Clone the repository
