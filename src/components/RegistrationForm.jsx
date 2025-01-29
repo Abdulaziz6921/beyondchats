@@ -23,7 +23,7 @@ export function RegistrationForm({ onComplete }) {
     setSentCode(code);
 
     try {
-      // In a real app, this would be an API call to your backend
+      // In a real app, this would be an API call to backend
       console.log(`Sending verification code ${code} to ${email}`);
 
       // Simulate email sending (in production, this would be a real email service)
@@ -41,7 +41,7 @@ export function RegistrationForm({ onComplete }) {
 
     // Validate the entered code
     if (verificationCode === sentCode) {
-      // Store user data (in production, this would be sent to your backend)
+      // Store user data (in production, this would be sent to backend)
       const userData = {
         name,
         email,
